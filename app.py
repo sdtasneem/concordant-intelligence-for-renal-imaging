@@ -429,14 +429,6 @@ if uploaded_image is not None:
                     value="Unavailable"
                 )
 
-        st.info(
-            "SVM confidence is estimated using a separately calibrated "
-            "SVM model, while the SVM prediction is produced by the "
-            "original SVM model. Their predictions may differ. "
-            "Random Forest confidence is based on its predicted class "
-            "probability. These estimates do not represent medical certainty."
-        )
-
         # ------------------------------------------------
         # RELIABILITY INDICATOR
         # ------------------------------------------------
