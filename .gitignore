@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.env
+.ipynb_checkpoints/
+renal_ct_artifacts/
